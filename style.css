@@ -2,6 +2,7 @@
 body {
 	background: url("images/image1.jpg");
 	color: white;
+	overflow-y:auto;
 }
 
 /* clickable img */
