@@ -1,0 +1,146 @@
+
+body {
+	background: url("images/image1.jpg");
+	color: white;
+}
+
+/* clickable img */
+#imgAc img {
+	height: 160px;
+    width: 120px;
+}
+
+#imgAc  li{
+	list-style: none;
+	height: 160px;
+    width: 120px;
+	position: relative;
+	padding: 7px;
+	margin-left: 6px;
+	margin-right: 6px;
+	float: left;
+}
+
+div.Bild {
+	width: 1700px;
+	margin: auto; 
+}
+/* clears float */
+.clear {
+	clear: both;
+}
+
+
+
+.inf {
+	font-family: cursive;
+	
+}
+
+/* syndicate img */
+.img1 {
+	float: left;
+	margin: 0px 15px 15px 100px;
+	height: 550px;
+    width: 300px;
+}
+.img2 {
+	float: right;
+	margin: 0px 100px 15px 15px;
+	height: 550px;
+    width: 300px;
+}
+/* table */
+table, td, tr {
+	border: 2px dotted white;
+	border-collapse: collapse;
+	margin: 0px 200px 15px 200px;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+td, tr {
+	padding: 15px;
+}
+/* inf */
+.text {
+	text-align: center;
+	margin-top: 100px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    margin-left: 250px;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+h4 {
+	text-align: center;
+	width: 80%; 
+}
+	
+#home {
+	text-align: center;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 250px;
+}
+
+.row1 {
+	list-style-type: disc;
+	float: left;
+	margin: 0px 15px 15px 500px;
+}
+
+.row2 {
+	list-style-type: disc;
+	float: right;
+	margin: 0px 500px 15px 15px;
+}
+
+/* Click me */
+#end {
+	text-align: center;
+	width: 100%; 
+	height: 5em;
+	position: fixed; 
+	bottom: 0; 
+}
+
+.vid {
+	text-align: center;
+	width: 100%; 
+	height: 8em; 
+	position: fixed;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	position: fixed; 
+	bottom: 0;
+}
+
+.Bild .hw  img:hover {
+	border: 2px solid white;
+    background: transparent;
+}
+.Bild a:hover {
+	cursor: pointer;
+}	
+
+
+@media print {
+ .Bild, .vid, .img1, .img2, h4, #end {display:none;}
+	p {
+		color: black;
+		float: left;
+		width: 100%;
+	}
+	h1,h2,h3 {
+		color: black;
+		text-align: center;
+	}  
+}
